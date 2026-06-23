@@ -1,1 +1,238 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+
+<title>TechFest 2026</title>
+
+<link rel="stylesheet" href="styling.css">
+
+</head>
+
+
+<body>
+
+<div class="particles"></div>
+
+<nav>
+
+<h2>⚡SAVARA TechFest 2026 ⚡</h2>
+
+<div>
+
+<a href="#events">Events</a>
+
+<a href="#register">Register</a>
+
+
+<label class="switch">
+<input type="checkbox" id="theme">
+
+<span class="slider">
+<span class="sun">☀️</span>
+<span class="moon">🌙</span>
+
+</span>
+
+</label>
+</div>
+
+
+</nav>
+
+
+<div class="ninja-cursor"></div>
+
+
+<section class="hero">
+
+
+<div class="badge">
+
+📅 30 July 2026 | 10:00 AM
+
+</div>
+
+<h1>
+TECHFEST <span>2026</span>
+</h1>
+
+
+<p>
+Code • Create • Innovate
+</p>
+
+<div id="timer">
+
+
+<div>
+<span id="days">00</span>
+Days
+</div>
+
+
+<div>
+<span id="hours">00</span>
+Hours
+</div>
+
+
+<div>
+<span id="minutes">00</span>
+Minutes
+</div>
+
+
+<div>
+<span id="seconds">00</span>
+Seconds
+</div>
+
+
+</div>
+
+<button onclick="scrollRegister()">
+
+Register Now →
+
+</button>
+
+
+</section>
+
+
+<section id="events">
+
+
+<h1>Event Schedule</h1>
+<div class="carousel">
+<button class="arrow" onclick="moveCard(-1)">
+❮
+</button>
+
+<div class="slider-container">
+
+<div class="card active">
+
+<div class="icon">
+🚀
+</div>
+
+<h3>Hackathon</h3>
+
+<p>10:00 AM</p>
+
+<p>Build something amazing</p>
+
+</div>
+
+<div class="card">
+<div class="icon">
+🐞
+</div>
+
+<h3>Debugging</h3>
+
+<p>1:00 PM</p>
+
+<p>Fix challenging bugs</p>
+
+</div>
+
+<div class="card">
+<div class="icon">
+🤖
+</div>
+
+<h3>AI Workshop</h3>
+
+<p>3:00 PM</p>
+
+<p>Explore AI</p>
+
+</div>
+
+
+<div class="card">
+
+
+<div class="icon">
+🏆
+</div>
+
+<h3>Prize Ceremony</h3>
+
+<p>5:00 PM</p>
+
+<p>Winners</p>
+
+</div>
+
+</div>
+
+<button class="arrow" onclick="moveCard(1)">
+❯
+</button>
+
+</div>
+
+
+</section>
+
+
+<section id="register">
+
+
+<h1>Registration</h1>
+
+<form id="form">
+
+
+<input id="name" placeholder="Name">
+
+
+<input id="email" placeholder="Email">
+
+
+<input id="roll" placeholder="Roll Number">
+
+
+<select>
+
+<option>CSE</option>
+
+<option>ECE</option>
+
+<option>MECH</option>
+
+<option>SM</option>
+
+<option>OTHERS</option>
+
+</select>
+
+<button>
+
+Submit
+
+</button>
+
+
+<p id="msg"></p>
+
+
+</form>
+
+
+</section>
+
+<footer>
+
+© TechFest 2026
+
+</footer>
+
+<script src="actioncard.js"></script>
+
+</body>
+</html>
