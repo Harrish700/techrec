@@ -1,1 +1,1 @@
-# techrec
+I have created a webpage for the institute techfest. It consist of a timer for the event, registration form , events that are schedule . i added pointer that would look like a ninja blade that would revolve when it moves
